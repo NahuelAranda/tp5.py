@@ -1,0 +1,36 @@
+#1)Escriba una función redondear() que permita redondear un número
+#decimal de acuerdo al criterio: Si el número es mayor a 3.50, devolver el
+#entero siguiente (en este caso, 4), si no devolver el entero inmediatamente
+#anterior (3). 
+"""numero = 3.50
+redondeado = round(numero, 4)
+print(redondeado)"""
+#3). Usando el módulo datetime, escribe un programa que muestre la fecha
+#y hora actuales del sistema
+"""import datetime as time
+print(time.datetime.now())"""
+#4). Escriba un programa que devuelva un número par al azar entre 2 y 10
+#(pista: para comprobar si se pueden generar todos los números, pruebe
+#ejecutar el programa dentro de un ciclo infinito).
+"""x=2
+while x<11:
+  if x%2==0:
+    print(x)
+  x+=1"""
+#5)Bola mágica: La bola mágica (Magic 8 ball) es un popular juguete usado
+#para la adivinación o para buscar consejo. Su mecanismo es muy simple:
+#ante una pregunta del usuario, la bola responde con una de 8 posibles
+#respuestas
+"""import random
+
+print("Soy la Bola Magica Preguntame lo que quieras..")
+
+respuestas = ("Es seguro que sí", "Es seguro que no", "si", "no", "No lo se", "puede ser", "no lo es", "obio", "obio que no", "no lo es")
+
+while True:
+    input()
+    print(random.choice(respuestas))"""
+#6)Encuentre el tiempo de ejecución de los programas de los ejercicios
+#anteriores (pista: use el módulo time)
+"""import time
+print(time.time())"""
